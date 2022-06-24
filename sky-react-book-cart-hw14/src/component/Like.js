@@ -16,19 +16,17 @@ function Likes(props) {
 
 function mapStateToProps(state) {
   return {
-    likes: state.likes,
+    likes: state.likeReducer.likes,
   }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
     onIncrement: () => {
-      console.log('click +')
       const action = { type: 'INCREMENT' }
       dispatch(action)
     },
     onDecrement: () => {
-      console.log('click -')
       const action = { type: 'DECREMENT' }
       dispatch(action)
     },

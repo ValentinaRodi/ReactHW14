@@ -13,7 +13,7 @@ function Title(props) {
 
 function mapStateToProps(state) {
   return {
-    valueUser: state.valueUser,
+    valueUser: state.titleReducer.valueUser,
   }
 }
 

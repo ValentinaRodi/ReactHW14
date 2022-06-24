@@ -2,9 +2,9 @@ import { combineReducers } from 'redux'
 import likeReducer from './likeReducers'
 import titleReducer from './titleReducers'
 
-const appReducer  = combineReducers({
+const appReducer = combineReducers({
   likeReducer,
   titleReducer,
 })
 
-export default appReducer 
+export default appReducer

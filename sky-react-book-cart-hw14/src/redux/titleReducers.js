@@ -1,5 +1,5 @@
-const initialState = {
-    valueUser: '',
+export const initialState = {
+  valueUser: '',
 }
 
 const titleReducer = (state = initialState, action) => {
